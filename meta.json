@@ -4,6 +4,10 @@
 {
     "inputs": [
         {
+            "id": "owner",
+            "title": "Owner"
+        },
+        {
             "id": "repo",
             "title":"Repo"
         },
@@ -17,6 +21,14 @@
         }
     ],
     "outputs": [
+        {
+            "id": "number",
+            "title": "Issue number"
+        },
+        {
+            "id": "url",
+            "title": "Issue URL"
+        }
     ],
     "title": "GitHub Create Issue",
     "icon": "github",
