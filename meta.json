@@ -19,5 +19,11 @@
     "outputs": [
     ],
     "title": "GitHub Create Issue",
-    "icon": "github"
+    "icon": "github",
+    "providers": [
+        {
+            "name": "github",
+            "scopes": [ "repo" ]
+        }
+    ]
 }
