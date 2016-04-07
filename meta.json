@@ -2,25 +2,22 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "repo",
+            "title":"Repo"
+        },
+        {
+            "id": "title",
+            "title": "Title"
+        },
+        {
+            "id": "body",
+            "title": "Body"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-      */
     ],
-    "title": "GitHub Create Issue" /* Required.A display name for the module */
+    "title": "GitHub Create Issue",
+    "icon": "github"
 }
